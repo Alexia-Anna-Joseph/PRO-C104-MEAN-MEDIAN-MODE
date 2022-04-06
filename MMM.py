@@ -49,17 +49,17 @@ print("Median is: " + str(median))
 
 data = Counter(new_data)
 mode_data_for_range = {
-                        "50-60": 0,
-                        "60-70": 0,
-                        "70-80": 0
+                        "75-85": 0,
+                        "85-95": 0,
+                        "95-100": 0
                     }
 for height, occurence in data.items():
-    if 50 < float(height) < 60:
-        mode_data_for_range["50-60"] += occurence
-    elif 60 < float(height) < 70:
-        mode_data_for_range["60-70"] += occurence
-    elif 70 < float(height) < 80:
-        mode_data_for_range["70-80"] += occurence
+    if 75 < float(height) < 85:
+        mode_data_for_range["75-85"] += occurence
+    elif 85 < float(height) < 95:
+        mode_data_for_range["85-95"] += occurence
+    elif 95 < float(height) < 100:
+        mode_data_for_range["95-100"] += occurence
 
 mode_range, mode_occurence = 0, 0
 for range, occurence in mode_data_for_range.items():
