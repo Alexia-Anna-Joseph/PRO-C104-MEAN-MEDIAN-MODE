@@ -70,17 +70,17 @@ for height, occurence in data.items():
         mode_data_for_range["95-105"] += occurence
     elif 105 < float(height) < 115:
         mode_data_for_range["105-115"] += occurence
-	elif 115 < float(height) < 125:
+    elif 115 < float(height) < 125:
         mode_data_for_range["115-125"] += occurence
-	elif 125 < float(height) < 135:
+    elif 125 < float(height) < 135:
         mode_data_for_range["125-135"] += occurence
-	elif 135 < float(height) < 145:
+    elif 135 < float(height) < 145:
         mode_data_for_range["135-145"] += occurence
-	elif 145 < float(height) < 155:
+    elif 145 < float(height) < 155:
         mode_data_for_range["145-155"] += occurence
-	elif 155 < float(height) < 165:
+    elif 155 < float(height) < 165:
         mode_data_for_range["155-165"] += occurence
-	elif 165 < float(height) < 175:
+    elif 165 < float(height) < 175:
         mode_data_for_range["165-175"] += occurence
 
 mode_range, mode_occurence = 0, 0
